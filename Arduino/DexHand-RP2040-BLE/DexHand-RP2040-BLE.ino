@@ -39,7 +39,7 @@
 
 ManagedServo managedServos[NUM_SERVOS] = 
 {
-  // Servo GPIO Pin, Min, Max, Default, Inverted
+  // Arduino D Pin, Min, Max, Default, Inverted
   ManagedServo(2, 30, 110, 30, false),  // Index Lower 0
   ManagedServo(1, 30, 140, 30, true),  // Index Upper 1
   ManagedServo(5, 30, 120, 30, false),  // Middle Lower 2
